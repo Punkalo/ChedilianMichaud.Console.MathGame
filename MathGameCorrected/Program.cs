@@ -2,8 +2,6 @@
 
 string? input = "-1";
 int difficulty = -1;
-//int num1;
-//int num2;
 int score = 0;
 int answer = -1210;
 bool validInput = false;
@@ -12,6 +10,7 @@ var rand = new Random();
 int attempt = -1;
 int lives = 3;
 int questions = 0;
+int questionAsked = 0;
 List<QuestionRecord> questionsList = new List<QuestionRecord>();
 
 
@@ -48,7 +47,7 @@ while (input != "end")
     
     input = Console.ReadLine();
     if (int.TryParse(input, out attempt))
-    {   
+    {   questionAsked++;
         questions++;
         if(answer == attempt)
         {   
@@ -60,7 +59,7 @@ while (input != "end")
         //Only if the initial 5 questons is completed, the player will lose a life if the answer is wrong.
         //If the answer is wrong, the player loses a life and the correct answer is displayed.
 
-        else if( answer != attempt && questions > 5 && lives >= 0)
+        else if( answer != attempt && questionAsked > 5 && lives >= 0)
         {  
              lives --;
             Console.WriteLine($"Sorry! The answer was: {answer}\n");
@@ -70,7 +69,7 @@ while (input != "end")
            { playGame(difficulty);}
             
         }
-        else if(answer != attempt && questions <= 5)
+        else if(answer != attempt && questionAsked <= 5)
         {
             Console.WriteLine($"Sorry! The answer was: {answer}\n");
             Console.WriteLine($"Current Score: {score}");
@@ -80,11 +79,11 @@ while (input != "end")
 
         
     }
-    if(questions < 5)
+    if(questionAsked < 5)
     {
-        Console.WriteLine($"Question: {questions}/5");
+        Console.WriteLine($"Question: {questionAsked}/5");
     }
-    else if(questions >= 5)
+    else if(questionAsked >= 5)
     {   
         Console.WriteLine($"-Survival Mode- {lives} Lives Remaining");
     }
@@ -124,19 +123,19 @@ void playGame(int MathMode)
     {
         case 1:
         
-        Console.WriteLine($"Question: {questions}");
+        Console.WriteLine($"Question: {questionAsked}");
             PerofmCalculationAdd();
             break;
         case 2:
-        Console.WriteLine($"Question: {questions}");
+        Console.WriteLine($"Question: {questionAsked}");
         PerofmCalculationSubtract();
             break;
         case 3:
-        Console.WriteLine($"Question: {questions}");
+        Console.WriteLine($"Question: {questionAsked}");
             PerofmCalculationMulti();
             break;
         case 4:
-        Console.WriteLine($"Question: {questions}");
+        Console.WriteLine($"Question: {questionAsked}");
             PerofmCalculationDivide();
             break;
         default:
@@ -279,6 +278,10 @@ void GameStart()
 else
 {
     Console.WriteLine("Invalid input, please enter a number between 1 and 5.");
+    Console.ReadLine();
+    MainMenu();
+    GameStart();
+    Console.Clear();
 }
 
 }
@@ -300,6 +303,7 @@ void MainMenu()
     attempt = -1;
     validInput = false;
     difficulty = -1;
+    questionAsked = 0;
 }
 public class QuestionRecord
 {
