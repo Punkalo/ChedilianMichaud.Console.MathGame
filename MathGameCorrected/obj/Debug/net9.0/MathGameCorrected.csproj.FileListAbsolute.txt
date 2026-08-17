@@ -1,0 +1,15 @@
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.AssemblyInfoInputs.cache
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.AssemblyInfo.cs
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.csproj.CoreCompileInputs.cache
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.sourcelink.json
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\bin\Debug\net9.0\MathGameCorrected.exe
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\bin\Debug\net9.0\MathGameCorrected.deps.json
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\bin\Debug\net9.0\MathGameCorrected.runtimeconfig.json
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\bin\Debug\net9.0\MathGameCorrected.dll
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\bin\Debug\net9.0\MathGameCorrected.pdb
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.dll
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\refint\MathGameCorrected.dll
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.pdb
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\MathGameCorrected.genruntimeconfig.cache
+C:\Users\shano\Desktop\Scripts\C#\ChedilianMichaud.Console.MathGame\ChedilianMichaud.Console.MathGame\MathGameCorrected\obj\Debug\net9.0\ref\MathGameCorrected.dll

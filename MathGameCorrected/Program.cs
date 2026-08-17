@@ -1,7 +1,5 @@
 ﻿using System;
 
-
-System.Timers.Timer aTimer = new System.Timers.Timer(1);
 string? input = "-1";
 int difficulty = -1;
 //int num1;
