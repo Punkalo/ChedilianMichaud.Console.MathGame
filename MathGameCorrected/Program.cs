@@ -188,8 +188,20 @@ int PerofmCalculationDivide()
 {
     int x = rand.Next(1, 100);
     int y = rand.Next(1, 10);
-    Console.WriteLine($"What is {x} / {y}?");
+    
     answer = x / y;
+    if (x%y != 0)
+    {
+      PerofmCalculationDivide();
+    }
+    else
+    {
+        
+        Console.WriteLine($"What is {x} / {y}?");
+    }
+
+    
+
     RecordGame($"What is {x} / {y}?", questions, answer, attempt);
     return (int)answer;
 }
